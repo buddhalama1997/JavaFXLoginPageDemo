@@ -1,0 +1,57 @@
+.root {
+    -fx-background-color: linear-gradient(to right, #141e30, #243b55);
+}
+
+/* Card Container */
+.form-container {
+    -fx-background-color: rgba(255,255,255,0.95);
+    -fx-padding: 60;
+    -fx-background-radius: 20;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 30, 0, 0, 15);
+}
+
+/* Title */
+.title {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #243b55;
+}
+
+/* Inputs */
+.text-field, .password-field {
+    -fx-pref-height: 50px;
+    -fx-font-size: 16px;
+    -fx-background-radius: 10;
+}
+
+/* Primary Button */
+.button {
+    -fx-background-color: #243b55;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-pref-height: 50px;
+    -fx-background-radius: 10;
+}
+
+.button:hover {
+    -fx-background-color: #141e30;
+}
+
+/* Secondary Button */
+.secondary-button {
+    -fx-background-color: transparent;
+    -fx-border-color: #243b55;
+    -fx-border-width: 2;
+    -fx-text-fill: #243b55;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #243b55;
+    -fx-text-fill: white;
+}
+
+/* Message */
+.message {
+    -fx-text-fill: red;
+    -fx-font-size: 14px;
+}
